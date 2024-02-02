@@ -17,7 +17,7 @@ const Advice = ({advice,fetchData,rotate2,rotateIcon2}:AdviceProps) => {
           md:text-[18px] xl:text-[20px] xl:ml-[56px]
           xl:relative xl:right-[10%]
           xl:mt-[56px] xl:max-w-[650px] '>
-          <h1>{advice}</h1>
+          <h1 className='dark:text-black'>{advice}</h1>
           <button
             className='text-2xl flex  min-w-[35px] min-h-[35px] rounded-[50%] justify-center items-center cursor-pointer '
             onClick={fetchData}

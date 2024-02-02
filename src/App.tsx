@@ -98,7 +98,7 @@ function App() {
           </div>
         </div>
         <div>
-          <img className='absolute top-0 left-0 w-full h-full object-cover  hidden md:w-[768px]  lg:w-[1024px] xl:w-[1280px] 2xl:w-[1536px]  dark:flex z-[-1]' src="/assets/jeremy-bishop-dvACrXUExLs-unsplash (1).svg" alt="" />
+          
         </div>
         <Time
           time={time}
