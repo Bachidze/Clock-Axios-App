@@ -4,9 +4,12 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode:'class',
   theme: {
     extend: {
-      inter: ['Inter', 'sans-serif'],
+      fontFamily:{
+        fontFamily:'Inter'
+      }
     },
   },
   plugins: [],
