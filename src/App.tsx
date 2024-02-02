@@ -30,7 +30,7 @@ function App() {
   };
 
   const fetchData2 = () => {
-    Axios.get('http://worldtimeapi.org/api/ip')
+    Axios.get('https://worldtimeapi.org/api/ip')
       .then((res) => {
         setTime2(res.data.datetime);
         setTime3(res.data.timezone);
