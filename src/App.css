@@ -7,3 +7,10 @@ body{
   justify-content: center;
   align-items: center;
 }
+
+@media(width <= 768px){
+  body{
+    background-image: none;
+    background-image: url('/assets/jeremy-bishop-dvACrXUExLs-unsplash.svg');
+  }
+}
