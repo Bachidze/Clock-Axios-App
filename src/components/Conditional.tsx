@@ -1,10 +1,4 @@
-
-interface ConditionalProps{
-    gaqroba:boolean;
-    time3:string;
-    dayOfTheY:string;
-    dayOfTheW:string;
-}
+import { ConditionalProps } from "../Interfaces"
 
 const Conditional = ({gaqroba,time3,dayOfTheY,dayOfTheW}:ConditionalProps) => {
   return (

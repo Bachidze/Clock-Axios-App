@@ -1,14 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { InfoProps } from '../Interfaces';
 
-interface InfoProps {
-  gaqroba: boolean;
-  setGaqroba: React.Dispatch<React.SetStateAction<boolean>>;
-  rotate: boolean;
-  rotateIcon: () => void;
-}
-
-const Info = ({ gaqroba, setGaqroba, rotate, rotateIcon,  }: InfoProps) => {
+const Info = ({ gaqroba, setGaqroba, rotate, rotateIcon,  }:InfoProps) => {
   return (
     <div>
       <div className='w-[100px] h-[35px] rounded-[20px] md:ml-[64px] md:w-[156px] md:h-[56px]  bg-[white] ml-4 flex justify-end items-center pr-1 mt-[90px] mb-[35px] xl:ml-[116px] xl:text-[25px] xl:relative xl:left-[70%] dark:bg-black'>

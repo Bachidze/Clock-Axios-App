@@ -1,10 +1,4 @@
-
-
-interface TimeProps{
-    time:string;
-    time2:string;
-    time3:string;
-}
+import { TimeProps } from "../Interfaces"
 
 const Time = ({time,time2,time3}:TimeProps) => {
   return (

@@ -1,9 +1,4 @@
-
-interface darkThemeProps{
-    toggleShavi:()=>void;
-    darkTheme:()=>void;
-    shavi:string;
-}
+import { darkThemeProps } from "../Interfaces"
 
 
 const Dark = ({toggleShavi,darkTheme,shavi}:darkThemeProps) => {

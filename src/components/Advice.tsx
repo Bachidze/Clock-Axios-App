@@ -1,12 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRotate } from '@fortawesome/free-solid-svg-icons';
-
-interface AdviceProps{
-    advice:string;
-    fetchData:()=>void;
-    rotateIcon2:()=>void;
-    rotate2: boolean;
-}
+import { AdviceProps } from '../Interfaces';
 
 const Advice = ({advice,fetchData,rotate2,rotateIcon2}:AdviceProps) => {
   return (
